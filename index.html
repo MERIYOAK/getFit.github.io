@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Gym Home Page</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style/index.css" />
+    <script
+      src="https://kit.fontawesome.com/b9236ae426.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#" id="navbar__logo"><i class="fas fa-dumbbell"></i>My Gym</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./template/about_us.html" class="navbar__links">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./template/services.html" class="navbar__links"
+              >Services</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="./template/pricing.html" class="navbar__links">pricing</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./template/contact_us.html" class="navbar__links"
+              >contact</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="./template/sign_up.html" class="button">sign up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <a href="./template/sign_up.html" class="btn">Join Now</a>
+    </section>
+
+    <section class="about">
+      <h2>About Us</h2>
+      <h2>Welcome to My Gym</h2>
+      <p>We are dedicated to helping you achieve your fitness goals.</p>
+      <p>
+        We are a full-service gym offering state-of-the-art equipment, personal
+        training, group classes, and more.
+      </p>
+      <a href="./template/about_us.html" class="btn">Learn More</a>
+    </section>
+
+    <section class="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li class="list_item">
+          <a class="anchor_header" href="./template/personal_training.html"
+            >Personal Training</a
+          >
+          <div class="image_container">
+            <img
+              src="./image/pesonal_trainer1.jpg"
+              alt="#"
+              width="350"
+              height="500"
+            />
+            <img
+              src="./image/personal_trainer2.jpg"
+              alt="#"
+              width="350"
+              height="500"
+            />
+          </div>
+        </li>
+        <hr />
+        <li class="list_item">
+          <a class="anchor_header" href="./template/cardio_equipment.html"
+            >Cardio Equipment</a
+          >
+          <div class="image_container">
+            <img
+              src="./image/cardio_equipment1.jpg"
+              alt="#"
+              width="350"
+              height="500"
+            />
+            <img
+              src="./image/cardio_equipment2.jpg"
+              alt="#"
+              width="350"
+              height="500"
+            />
+          </div>
+        </li>
+        <hr />
+        <li class="list_item">
+          <a class="anchor_header" href="./template/strength_training.html"
+            >Strength Training</a
+          >
+          <div class="image_container">
+            <img
+              src="./image/strenght_training1.jpg"
+              alt="#"
+              width="350"
+              height="500"
+            />
+            <img
+              src="./image/strenght_training2.jpg"
+              alt="#"
+              width="350"
+              height="500"
+            />
+          </div>
+        </li>
+        <hr />
+        <li class="list_item">
+          <a class="anchor_header" href="./template/group_classes.html"
+            >Group Classes</a
+          >
+          <div class="image_container">
+            <img
+              src="./image/group_classes1.jpg"
+              alt="#"
+              width="350"
+              height="500"
+            />
+            <img
+              src="./image/group_classes2.jpg"
+              alt="#"
+              width="350"
+              height="500"
+            />
+          </div>
+        </li>
+        <hr />
+        <li class="list_item">
+          <a class="anchor_header" href="./template/nutrition_counselling.html"
+            >Nutrition Counseling</a
+          >
+          <div class="image_container">
+            <img
+              src="./image/nutrition_counselling1.jpg"
+              alt="#"
+              width="350"
+              height="500"
+            />
+            <img
+              src="./image/nutrition_counselling2.jpg"
+              alt="#"
+              width="350"
+              height="500"
+            />
+          </div>
+        </li>
+        <hr />
+      </ul>
+    </section>
+
+    <section class="pricing">
+      <h2>Pricing</h2>
+      <p>
+        We offer a variety of membership options to fit your needs and budget.
+      </p>
+      <a href="./template/pricing.html" class="btn">View Pricing</a>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <input class="send_btn" type="submit" value="Send" />
+      </form>
+    </section>
+
+    <!-- footer section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About</h2>
+            <a href="/">Gym</a>
+            <a href="/">Diet</a>
+            <a href="/">Investments</a>
+            <a href="/">Need an instructor</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Support</h2>
+            <a href="/">Comment</a>
+            <a href="/">Donate</a>
+            <a href="/">Advertise</a>
+            <a href="/">Sponsorships</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Become</h2>
+            <a href="/">developer</a>
+            <a href="/">Ambassador</a>
+            <a href="/">Agency</a>
+            <a href="/">Influencer</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact</h2>
+            <a href="/">Instagram</a>
+            <a href="/">Facebook</a>
+            <a href="/">Youtube</a>
+            <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="/" id="footer__logo"
+            ><i class="fas fa-dumbbell"></i>My Gym</a
+          >
+        </div>
+        <p class="website__rights">&copy; 2023. All rights reserved</p>
+        <div class="social__icons">
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="/" class="social__icon--link" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
